@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\\" | head -30)",
+      "Read(//d/Sports For Life Academy/**)",
+      "PowerShell(head -20)"
+    ]
+  }
+}
