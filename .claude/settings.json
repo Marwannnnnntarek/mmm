@@ -3,7 +3,33 @@
     "allow": [
       "Bash(ls -la \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\\" | head -30)",
       "Read(//d/Sports For Life Academy/**)",
-      "PowerShell(head -20)"
+      "PowerShell(head -20)",
+      "Bash(flutter devices *)",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\Sports For Life Academy\\\\sports_for_life_academy\" -Recurse -File | Where-Object {$_.Extension -eq '.dart'} | Select-Object FullName)",
+      "Bash(flutter run *)",
+      "Bash(adb -s emulator-5554 shell screencap -p /sdcard/screenshot.png)",
+      "Bash(adb -s emulator-5554 pull /sdcard/screenshot.png build/screenshot.png)",
+      "PowerShell($adbCmd = Get-Command adb -ErrorAction SilentlyContinue; if \\($adbCmd\\) { $adb = $adbCmd.Source } else { $adb = \"$env:LOCALAPPDATA\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\" }; Write-Host \"Using adb: $adb\"; & $adb -s emulator-5554 shell screencap -p /sdcard/screenshot.png; & $adb -s emulator-5554 pull /sdcard/screenshot.png \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\build\\\\screenshot.png\")",
+      "PowerShell($adb = \"$env:LOCALAPPDATA\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb -s emulator-5554 shell screencap -p /sdcard/screenshot2.png; & $adb -s emulator-5554 pull /sdcard/screenshot2.png \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\build\\\\screenshot2.png\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\lib\" -Directory)",
+      "Bash(Select-Object -ExpandProperty Name)",
+      "Bash(Remove-Item -Force \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\lib\\\\screens\\\\branch_selection\\\\branch_selection_screen.dart\")",
+      "Bash(Remove-Item -Force \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\lib\\\\screens\\\\registration\\\\registration_wizard.dart\")",
+      "Bash(Remove-Item -Force \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\lib\\\\screens\\\\registration\\\\parent_info_screen.dart\")",
+      "Bash(Remove-Item -Force \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\lib\\\\screens\\\\registration\\\\player_info_screen.dart\")",
+      "Bash(Remove-Item -Force \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\lib\\\\screens\\\\registration\\\\medical_info_screen.dart\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Read(//c/Users/20251/Downloads/**)",
+      "WebFetch(domain:fhmorjicydakcoqwrwix.supabase.co)",
+      "Bash(del lib\\\\services\\\\ams_service.dart)",
+      "Bash(del lib\\\\screens\\\\review\\\\review_screen.dart)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(flutter build *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\20251\\Downloads"
     ]
   }
 }

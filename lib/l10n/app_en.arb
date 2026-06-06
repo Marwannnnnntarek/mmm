@@ -1,0 +1,95 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Sports For Life Academy",
+  "welcomeTitle": "Welcome to Sports For Life Academy",
+  "welcomeSubtitle": "Register your player now",
+  "startRegistration": "Start Registration",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+
+  "registrationTitle": "Registration Form",
+  "reviewApplicationButton": "Review Application",
+
+  "stepParentInfo": "Parent / Guardian",
+  "stepPlayerInfo": "Player Information",
+  "stepMedical": "Medical Information",
+  "stepEmergency": "Emergency Contact",
+
+  "parentFullName": "Parent Full Name",
+  "parentMobile": "Mobile Number",
+  "parentAltMobile": "Alternative Mobile",
+  "parentEmail": "Email Address (optional)",
+
+  "playerFullName": "Player Full Name",
+  "playerDob": "Date of Birth",
+  "playerGender": "Gender",
+  "genderMale": "Male",
+  "genderFemale": "Female",
+  "playerSchool": "School Name (optional)",
+
+  "trainingScheduleLabel": "Training Schedule",
+  "trainingScheduleHint": "Choose your preferred training days",
+  "scheduleSundayTuesday": "Sun & Tue",
+  "scheduleMondayWednesday": "Mon & Wed",
+  "scheduleFridaySaturday": "Fri & Sat",
+
+  "medicalConditionsLabel": "Does the player have any medical conditions?",
+  "medicalConditionsDetails": "Medical Condition Details",
+  "yes": "Yes",
+  "no": "No",
+
+  "emergencyContactName": "Emergency Contact Name",
+  "emergencyContactPhone": "Emergency Contact Phone",
+
+  "nextButton": "Next",
+  "backButton": "Back",
+  "submitButton": "Submit Application",
+  "editButton": "Edit",
+
+  "reviewTitle": "Review Application",
+  "reviewParentSection": "Parent / Guardian",
+  "reviewPlayerSection": "Player",
+  "reviewTrainingSection": "Training Schedule",
+  "reviewMedicalSection": "Medical",
+  "reviewEmergencySection": "Emergency Contact",
+
+  "duplicateWarningTitle": "Potential Duplicate Registration",
+  "duplicateWarningMessage": "A registration for this player may already exist. Do you want to proceed?",
+  "duplicateProceed": "Proceed Anyway",
+  "duplicateCancel": "Cancel",
+
+  "successTitle": "Registration Submitted!",
+  "successSubtitle": "We've received your application",
+  "successReferenceLabel": "Reference Number",
+  "copyButton": "Copy",
+  "copiedMessage": "Copied!",
+  "successInstructions": "The academy team will contact you soon to confirm your registration and share next steps.",
+  "doneButton": "Done",
+
+  "errorSubmissionFailed": "Submission failed. Please check your connection and try again.",
+  "errorNoConnection": "No internet connection. Please connect and try again.",
+  "errorGeneric": "An error occurred. Please try again.",
+
+  "validationRequired": "This field is required",
+  "validationMobileFormat": "Enter a valid mobile number (e.g. 01012345678)",
+  "validationEmailFormat": "Enter a valid email address",
+  "validationDobFuture": "Date of birth cannot be in the future",
+  "validationDobRequired": "Please select a date of birth",
+  "validationEmergencyPhoneSameAsParent": "Must differ from parent mobile number",
+  "validationMedicalDetailsRequired": "Please describe the medical condition",
+  "validationScheduleRequired": "Please select a training schedule",
+
+  "childName": "Child Name",
+  "childAge": "Child Age",
+  "swimmingLevel": "Swimming Level",
+  "swimBeginner": "Beginner",
+  "swimIntermediate": "Intermediate",
+  "swimAdvanced": "Advanced",
+  "preferredBranch": "Preferred Branch",
+  "notesOptional": "Notes (optional)",
+  "stepChildInfo": "Child Information",
+  "stepRegistrationDetails": "Registration Details",
+  "successMessage": "Your application has been submitted successfully.",
+  "validationAge": "Please enter a valid age (1–99)"
+}

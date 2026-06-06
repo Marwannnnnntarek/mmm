@@ -1,0 +1,95 @@
+{
+  "@@locale": "ar",
+
+  "appTitle": "أكاديمية سبورتس فور لايف",
+  "welcomeTitle": "مرحباً بكم في أكاديمية سبورتس فور لايف",
+  "welcomeSubtitle": "سجّل لاعبك الآن",
+  "startRegistration": "ابدأ التسجيل",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+
+  "registrationTitle": "استمارة التسجيل",
+  "reviewApplicationButton": "مراجعة الطلب",
+
+  "stepParentInfo": "ولي الأمر",
+  "stepPlayerInfo": "معلومات اللاعب",
+  "stepMedical": "المعلومات الطبية",
+  "stepEmergency": "جهة الاتصال للطوارئ",
+
+  "parentFullName": "الاسم الكامل لولي الأمر",
+  "parentMobile": "رقم الجوال",
+  "parentAltMobile": "رقم جوال بديل",
+  "parentEmail": "البريد الإلكتروني (اختياري)",
+
+  "playerFullName": "الاسم الكامل للاعب",
+  "playerDob": "تاريخ الميلاد",
+  "playerGender": "الجنس",
+  "genderMale": "ذكر",
+  "genderFemale": "أنثى",
+  "playerSchool": "اسم المدرسة (اختياري)",
+
+  "trainingScheduleLabel": "جدول التدريب",
+  "trainingScheduleHint": "اختر أيام التدريب المفضلة لديك",
+  "scheduleSundayTuesday": "الأحد والثلاثاء",
+  "scheduleMondayWednesday": "الاثنين والأربعاء",
+  "scheduleFridaySaturday": "الجمعة والسبت",
+
+  "medicalConditionsLabel": "هل يعاني اللاعب من حالات طبية؟",
+  "medicalConditionsDetails": "تفاصيل الحالة الطبية",
+  "yes": "نعم",
+  "no": "لا",
+
+  "emergencyContactName": "اسم جهة الاتصال للطوارئ",
+  "emergencyContactPhone": "رقم هاتف جهة الطوارئ",
+
+  "nextButton": "التالي",
+  "backButton": "رجوع",
+  "submitButton": "إرسال الطلب",
+  "editButton": "تعديل",
+
+  "reviewTitle": "مراجعة الطلب",
+  "reviewParentSection": "ولي الأمر",
+  "reviewPlayerSection": "اللاعب",
+  "reviewTrainingSection": "جدول التدريب",
+  "reviewMedicalSection": "المعلومات الطبية",
+  "reviewEmergencySection": "جهة الطوارئ",
+
+  "duplicateWarningTitle": "تحذير: تسجيل محتمل مكرر",
+  "duplicateWarningMessage": "يبدو أن هذا اللاعب مسجّل مسبقاً. هل تريد المتابعة؟",
+  "duplicateProceed": "متابعة الإرسال",
+  "duplicateCancel": "إلغاء",
+
+  "successTitle": "تم التسجيل بنجاح!",
+  "successSubtitle": "لقد استلمنا طلبك",
+  "successReferenceLabel": "رقم المرجع",
+  "copyButton": "نسخ",
+  "copiedMessage": "تم النسخ!",
+  "successInstructions": "سيتواصل معك فريق الأكاديمية قريباً لتأكيد تسجيلك ومشاركة الخطوات التالية.",
+  "doneButton": "تم",
+
+  "errorSubmissionFailed": "فشل الإرسال. يرجى التحقق من الاتصال والمحاولة مجدداً.",
+  "errorNoConnection": "لا يوجد اتصال بالإنترنت. يرجى الاتصال والمحاولة مجدداً.",
+  "errorGeneric": "حدث خطأ. يرجى المحاولة مجدداً.",
+
+  "validationRequired": "هذا الحقل مطلوب",
+  "validationMobileFormat": "أدخل رقم جوال صحيحاً (مثال: 01012345678)",
+  "validationEmailFormat": "أدخل بريداً إلكترونياً صحيحاً",
+  "validationDobFuture": "تاريخ الميلاد لا يمكن أن يكون في المستقبل",
+  "validationDobRequired": "يرجى اختيار تاريخ الميلاد",
+  "validationEmergencyPhoneSameAsParent": "يجب أن يختلف عن رقم ولي الأمر",
+  "validationMedicalDetailsRequired": "يرجى توضيح الحالة الطبية",
+  "validationScheduleRequired": "يرجى اختيار جدول التدريب",
+
+  "childName": "اسم الطفل",
+  "childAge": "عمر الطفل",
+  "swimmingLevel": "مستوى السباحة",
+  "swimBeginner": "مبتدئ",
+  "swimIntermediate": "متوسط",
+  "swimAdvanced": "متقدم",
+  "preferredBranch": "الفرع المفضل",
+  "notesOptional": "ملاحظات (اختياري)",
+  "stepChildInfo": "معلومات الطفل",
+  "stepRegistrationDetails": "تفاصيل التسجيل",
+  "successMessage": "تم تقديم طلبك بنجاح.",
+  "validationAge": "يرجى إدخال عمر صحيح (١-٩٩)"
+}

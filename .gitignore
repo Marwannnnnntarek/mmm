@@ -1,3 +1,8 @@
+# Environment / secrets (dart-define values must never be committed)
+.env
+.env.*
+dart_define.json
+
 # Miscellaneous
 *.class
 *.log

@@ -63,4 +63,12 @@ Arabic and English are both required. Arabic is RTL, English is LTR. All labels,
 <!-- SPECKIT START -->
 For additional context about technologies to be used, project structure,
 shell commands, and other important information, read the current plan
+at [specs/001-registration-app-mvp/plan.md](specs/001-registration-app-mvp/plan.md).
+
+Key design artifacts:
+- Spec: [specs/001-registration-app-mvp/spec.md](specs/001-registration-app-mvp/spec.md)
+- Data model: [specs/001-registration-app-mvp/data-model.md](specs/001-registration-app-mvp/data-model.md)
+- AMS API contract: [specs/001-registration-app-mvp/contracts/ams-api.md](specs/001-registration-app-mvp/contracts/ams-api.md)
+- Quickstart: [specs/001-registration-app-mvp/quickstart.md](specs/001-registration-app-mvp/quickstart.md)
+- Constitution: [.specify/memory/constitution.md](.specify/memory/constitution.md)
 <!-- SPECKIT END -->
