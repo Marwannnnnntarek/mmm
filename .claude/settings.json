@@ -26,7 +26,16 @@
       "Bash(del lib\\\\screens\\\\review\\\\review_screen.dart)",
       "Skill(run)",
       "Skill(run:*)",
-      "Bash(flutter build *)"
+      "Bash(flutter build *)",
+      "Bash(flutter clean *)",
+      "Bash(Get-ChildItem -Path \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(dir \"C:\\\\Users\\\\20251\\\\Downloads\" /B /O:D)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(node create-manager.mjs)",
+      "Bash(del \"d:\\\\Sports For Life Academy\\\\sports_for_life_academy\\\\Back-End\\\\sports-for-life-academy\\\\create-manager.mjs\")"
     ],
     "additionalDirectories": [
       "C:\\Users\\20251\\Downloads"

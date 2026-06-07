@@ -15,6 +15,10 @@ class SupabaseService {
   }
 
   Future<void> submitRegistrationRequest(RegistrationRequest request) async {
-    await Supabase.instance.client.from(_table).insert(request.toJson());
+    try {
+      await Supabase.instance.client.from(_table).insert(request.toJson());
+    } on PostgrestException catch (e) {
+      throw Exception('${e.message} (code: ${e.code})');
+    }
   }
 }

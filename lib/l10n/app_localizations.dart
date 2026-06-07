@@ -200,6 +200,24 @@ abstract class AppLocalizations {
   /// **'Player Full Name'**
   String get playerFullName;
 
+  /// No description provided for @playerFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get playerFirstName;
+
+  /// No description provided for @playerMiddleName.
+  ///
+  /// In en, this message translates to:
+  /// **'Father\'s Name'**
+  String get playerMiddleName;
+
+  /// No description provided for @playerLastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Family Name'**
+  String get playerLastName;
+
   /// No description provided for @playerDob.
   ///
   /// In en, this message translates to:
@@ -227,8 +245,62 @@ abstract class AppLocalizations {
   /// No description provided for @playerSchool.
   ///
   /// In en, this message translates to:
-  /// **'School Name (optional)'**
+  /// **'School (optional)'**
   String get playerSchool;
+
+  /// No description provided for @playerClub.
+  ///
+  /// In en, this message translates to:
+  /// **'Club (optional)'**
+  String get playerClub;
+
+  /// No description provided for @playerAgeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Age'**
+  String get playerAgeLabel;
+
+  /// No description provided for @yearsUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'years'**
+  String get yearsUnit;
+
+  /// No description provided for @fatherPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Father\'s Mobile'**
+  String get fatherPhone;
+
+  /// No description provided for @motherPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Mother\'s Mobile'**
+  String get motherPhone;
+
+  /// No description provided for @emergencyPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Emergency Number'**
+  String get emergencyPhone;
+
+  /// No description provided for @fatherOccupation.
+  ///
+  /// In en, this message translates to:
+  /// **'Father\'s Occupation (optional)'**
+  String get fatherOccupation;
+
+  /// No description provided for @motherOccupation.
+  ///
+  /// In en, this message translates to:
+  /// **'Mother\'s Occupation (optional)'**
+  String get motherOccupation;
+
+  /// No description provided for @guardianEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email (optional)'**
+  String get guardianEmail;
 
   /// No description provided for @trainingScheduleLabel.
   ///
@@ -295,6 +367,102 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Emergency Contact Phone'**
   String get emergencyContactPhone;
+
+  /// No description provided for @consentSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Policies & Consent'**
+  String get consentSection;
+
+  /// No description provided for @consentPaymentTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Policy'**
+  String get consentPaymentTitle;
+
+  /// No description provided for @consentPaymentText.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly subscription fees are paid on the first exercise session each month.'**
+  String get consentPaymentText;
+
+  /// No description provided for @consentRefundTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Refund Policy'**
+  String get consentRefundTitle;
+
+  /// No description provided for @consentRefundText.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no refunds. Class transfers or credit towards another aquatic program may be requested and must be authorized by the pool supervisor. A full refund will be granted only if the class is cancelled by our team.'**
+  String get consentRefundText;
+
+  /// No description provided for @consentMedicalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Emergency Medical Treatment Consent'**
+  String get consentMedicalTitle;
+
+  /// No description provided for @consentMedicalText.
+  ///
+  /// In en, this message translates to:
+  /// **'In a medical emergency, the parent/guardian grants authorization to our team to perform any primary emergency treatment. The academy bears no responsibility for any medical or health conditions experienced during academy activities. Academy staff and management shall not be held legally liable in this regard.'**
+  String get consentMedicalText;
+
+  /// No description provided for @consentPhotosTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Photos & Media'**
+  String get consentPhotosTitle;
+
+  /// No description provided for @consentPhotosText.
+  ///
+  /// In en, this message translates to:
+  /// **'Photos are occasionally taken by our swimming team and may be used for publicity purposes. By signing, you consent to the use of your child\'s image for academy promotion.'**
+  String get consentPhotosText;
+
+  /// No description provided for @consentAgree.
+  ///
+  /// In en, this message translates to:
+  /// **'I have read, understood, and agree to the above policies and informed consent'**
+  String get consentAgree;
+
+  /// No description provided for @referralSection.
+  ///
+  /// In en, this message translates to:
+  /// **'How did you hear about us?'**
+  String get referralSection;
+
+  /// No description provided for @referralFriends.
+  ///
+  /// In en, this message translates to:
+  /// **'Friends'**
+  String get referralFriends;
+
+  /// No description provided for @referralFacebook.
+  ///
+  /// In en, this message translates to:
+  /// **'Facebook'**
+  String get referralFacebook;
+
+  /// No description provided for @referralInstagram.
+  ///
+  /// In en, this message translates to:
+  /// **'Instagram'**
+  String get referralInstagram;
+
+  /// No description provided for @referralBrochures.
+  ///
+  /// In en, this message translates to:
+  /// **'Brochures'**
+  String get referralBrochures;
+
+  /// No description provided for @referralOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get referralOther;
 
   /// No description provided for @nextButton.
   ///
@@ -449,7 +617,7 @@ abstract class AppLocalizations {
   /// No description provided for @validationMobileFormat.
   ///
   /// In en, this message translates to:
-  /// **'Enter a valid mobile number (e.g. 01012345678)'**
+  /// **'Enter a valid Egyptian mobile (e.g. 01012345678)'**
   String get validationMobileFormat;
 
   /// No description provided for @validationEmailFormat.
@@ -473,7 +641,7 @@ abstract class AppLocalizations {
   /// No description provided for @validationEmergencyPhoneSameAsParent.
   ///
   /// In en, this message translates to:
-  /// **'Must differ from parent mobile number'**
+  /// **'Must differ from parent phone numbers'**
   String get validationEmergencyPhoneSameAsParent;
 
   /// No description provided for @validationMedicalDetailsRequired.
@@ -487,6 +655,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Please select a training schedule'**
   String get validationScheduleRequired;
+
+  /// No description provided for @validationConsentRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'You must agree to the terms to proceed'**
+  String get validationConsentRequired;
 
   /// No description provided for @childName.
   ///

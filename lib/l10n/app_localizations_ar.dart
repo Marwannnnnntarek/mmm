@@ -36,7 +36,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get stepParentInfo => 'ولي الأمر';
 
   @override
-  String get stepPlayerInfo => 'معلومات اللاعب';
+  String get stepPlayerInfo => 'بيانات المشترك';
 
   @override
   String get stepMedical => 'المعلومات الطبية';
@@ -60,6 +60,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get playerFullName => 'الاسم الكامل للاعب';
 
   @override
+  String get playerFirstName => 'الاسم الأول';
+
+  @override
+  String get playerMiddleName => 'اسم الأب';
+
+  @override
+  String get playerLastName => 'اسم العائلة';
+
+  @override
   String get playerDob => 'تاريخ الميلاد';
 
   @override
@@ -72,7 +81,34 @@ class AppLocalizationsAr extends AppLocalizations {
   String get genderFemale => 'أنثى';
 
   @override
-  String get playerSchool => 'اسم المدرسة (اختياري)';
+  String get playerSchool => 'المدرسة (اختياري)';
+
+  @override
+  String get playerClub => 'النادي (اختياري)';
+
+  @override
+  String get playerAgeLabel => 'العمر';
+
+  @override
+  String get yearsUnit => 'سنة';
+
+  @override
+  String get fatherPhone => 'هاتف الأب';
+
+  @override
+  String get motherPhone => 'هاتف الأم';
+
+  @override
+  String get emergencyPhone => 'رقم الطوارئ';
+
+  @override
+  String get fatherOccupation => 'وظيفة الأب (اختياري)';
+
+  @override
+  String get motherOccupation => 'وظيفة الأم (اختياري)';
+
+  @override
+  String get guardianEmail => 'البريد الإلكتروني (اختياري)';
 
   @override
   String get trainingScheduleLabel => 'جدول التدريب';
@@ -106,6 +142,59 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get emergencyContactPhone => 'رقم هاتف جهة الطوارئ';
+
+  @override
+  String get consentSection => 'السياسات والموافقة';
+
+  @override
+  String get consentPaymentTitle => 'سياسة الدفع';
+
+  @override
+  String get consentPaymentText =>
+      'يتم دفع رسوم الاشتراك الشهري في أول حصة تدريبية (شهريًا).';
+
+  @override
+  String get consentRefundTitle => 'سياسة الاسترجاع';
+
+  @override
+  String get consentRefundText =>
+      'لا توجد سياسة لاسترداد الأموال. يمكن طلب تحويل الحصص أو الرصيد لبرنامج آخر ويجب الحصول على موافقة المشرف. يتم الاسترداد الكامل فقط في حال إلغاء الحصة من قِبل الأكاديمية.';
+
+  @override
+  String get consentMedicalTitle => 'الموافقة على الرعاية الطبية الطارئة';
+
+  @override
+  String get consentMedicalText =>
+      'في حالات الطوارئ الطبية، يمنح ولي الأمر تفويضًا كاملًا لفريقنا لتقديم الإسعافات الأولية. لا تتحمل الأكاديمية أي مسؤولية عن أي حالة طبية قد يمر بها الطفل أثناء تواجده في الأكاديمية. ولا يحق لولي الأمر اتخاذ أي إجراء قانوني ضد الأكاديمية في هذا الشأن.';
+
+  @override
+  String get consentPhotosTitle => 'الصور والوسائط';
+
+  @override
+  String get consentPhotosText =>
+      'يتم التقاط صور أحيانًا بواسطة فريق السباحة لدينا وقد تُستخدم لأغراض الدعاية والإعلان. بالتوقيع، تمنح موافقتك على استخدام صورة طفلك لترويج الأكاديمية.';
+
+  @override
+  String get consentAgree =>
+      'لقد قرأت وفهمت وأوافق على السياسات والموافقة المستنيرة المذكورة أعلاه';
+
+  @override
+  String get referralSection => 'كيف سمعت عنا؟';
+
+  @override
+  String get referralFriends => 'أصدقاء';
+
+  @override
+  String get referralFacebook => 'فيسبوك';
+
+  @override
+  String get referralInstagram => 'انستاجرام';
+
+  @override
+  String get referralBrochures => 'مطبوعات';
+
+  @override
+  String get referralOther => 'أخرى';
 
   @override
   String get nextButton => 'التالي';
@@ -188,7 +277,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get validationMobileFormat =>
-      'أدخل رقم جوال صحيحاً (مثال: 01012345678)';
+      'أدخل رقم جوال مصري صحيحاً (مثال: 01012345678)';
 
   @override
   String get validationEmailFormat => 'أدخل بريداً إلكترونياً صحيحاً';
@@ -201,13 +290,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get validationEmergencyPhoneSameAsParent =>
-      'يجب أن يختلف عن رقم ولي الأمر';
+      'يجب أن يختلف عن أرقام هواتف ولي الأمر';
 
   @override
   String get validationMedicalDetailsRequired => 'يرجى توضيح الحالة الطبية';
 
   @override
   String get validationScheduleRequired => 'يرجى اختيار جدول التدريب';
+
+  @override
+  String get validationConsentRequired => 'يجب الموافقة على الشروط للمتابعة';
 
   @override
   String get childName => 'اسم الطفل';

@@ -12,7 +12,7 @@
   "reviewApplicationButton": "مراجعة الطلب",
 
   "stepParentInfo": "ولي الأمر",
-  "stepPlayerInfo": "معلومات اللاعب",
+  "stepPlayerInfo": "بيانات المشترك",
   "stepMedical": "المعلومات الطبية",
   "stepEmergency": "جهة الاتصال للطوارئ",
 
@@ -22,11 +22,24 @@
   "parentEmail": "البريد الإلكتروني (اختياري)",
 
   "playerFullName": "الاسم الكامل للاعب",
+  "playerFirstName": "الاسم الأول",
+  "playerMiddleName": "اسم الأب",
+  "playerLastName": "اسم العائلة",
   "playerDob": "تاريخ الميلاد",
   "playerGender": "الجنس",
   "genderMale": "ذكر",
   "genderFemale": "أنثى",
-  "playerSchool": "اسم المدرسة (اختياري)",
+  "playerSchool": "المدرسة (اختياري)",
+  "playerClub": "النادي (اختياري)",
+  "playerAgeLabel": "العمر",
+  "yearsUnit": "سنة",
+
+  "fatherPhone": "هاتف الأب",
+  "motherPhone": "هاتف الأم",
+  "emergencyPhone": "رقم الطوارئ",
+  "fatherOccupation": "وظيفة الأب (اختياري)",
+  "motherOccupation": "وظيفة الأم (اختياري)",
+  "guardianEmail": "البريد الإلكتروني (اختياري)",
 
   "trainingScheduleLabel": "جدول التدريب",
   "trainingScheduleHint": "اختر أيام التدريب المفضلة لديك",
@@ -41,6 +54,24 @@
 
   "emergencyContactName": "اسم جهة الاتصال للطوارئ",
   "emergencyContactPhone": "رقم هاتف جهة الطوارئ",
+
+  "consentSection": "السياسات والموافقة",
+  "consentPaymentTitle": "سياسة الدفع",
+  "consentPaymentText": "يتم دفع رسوم الاشتراك الشهري في أول حصة تدريبية (شهريًا).",
+  "consentRefundTitle": "سياسة الاسترجاع",
+  "consentRefundText": "لا توجد سياسة لاسترداد الأموال. يمكن طلب تحويل الحصص أو الرصيد لبرنامج آخر ويجب الحصول على موافقة المشرف. يتم الاسترداد الكامل فقط في حال إلغاء الحصة من قِبل الأكاديمية.",
+  "consentMedicalTitle": "الموافقة على الرعاية الطبية الطارئة",
+  "consentMedicalText": "في حالات الطوارئ الطبية، يمنح ولي الأمر تفويضًا كاملًا لفريقنا لتقديم الإسعافات الأولية. لا تتحمل الأكاديمية أي مسؤولية عن أي حالة طبية قد يمر بها الطفل أثناء تواجده في الأكاديمية. ولا يحق لولي الأمر اتخاذ أي إجراء قانوني ضد الأكاديمية في هذا الشأن.",
+  "consentPhotosTitle": "الصور والوسائط",
+  "consentPhotosText": "يتم التقاط صور أحيانًا بواسطة فريق السباحة لدينا وقد تُستخدم لأغراض الدعاية والإعلان. بالتوقيع، تمنح موافقتك على استخدام صورة طفلك لترويج الأكاديمية.",
+  "consentAgree": "لقد قرأت وفهمت وأوافق على السياسات والموافقة المستنيرة المذكورة أعلاه",
+
+  "referralSection": "كيف سمعت عنا؟",
+  "referralFriends": "أصدقاء",
+  "referralFacebook": "فيسبوك",
+  "referralInstagram": "انستاجرام",
+  "referralBrochures": "مطبوعات",
+  "referralOther": "أخرى",
 
   "nextButton": "التالي",
   "backButton": "رجوع",
@@ -72,13 +103,14 @@
   "errorGeneric": "حدث خطأ. يرجى المحاولة مجدداً.",
 
   "validationRequired": "هذا الحقل مطلوب",
-  "validationMobileFormat": "أدخل رقم جوال صحيحاً (مثال: 01012345678)",
+  "validationMobileFormat": "أدخل رقم جوال مصري صحيحاً (مثال: 01012345678)",
   "validationEmailFormat": "أدخل بريداً إلكترونياً صحيحاً",
   "validationDobFuture": "تاريخ الميلاد لا يمكن أن يكون في المستقبل",
   "validationDobRequired": "يرجى اختيار تاريخ الميلاد",
-  "validationEmergencyPhoneSameAsParent": "يجب أن يختلف عن رقم ولي الأمر",
+  "validationEmergencyPhoneSameAsParent": "يجب أن يختلف عن أرقام هواتف ولي الأمر",
   "validationMedicalDetailsRequired": "يرجى توضيح الحالة الطبية",
   "validationScheduleRequired": "يرجى اختيار جدول التدريب",
+  "validationConsentRequired": "يجب الموافقة على الشروط للمتابعة",
 
   "childName": "اسم الطفل",
   "childAge": "عمر الطفل",

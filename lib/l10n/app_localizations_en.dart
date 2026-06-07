@@ -60,6 +60,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get playerFullName => 'Player Full Name';
 
   @override
+  String get playerFirstName => 'First Name';
+
+  @override
+  String get playerMiddleName => 'Father\'s Name';
+
+  @override
+  String get playerLastName => 'Family Name';
+
+  @override
   String get playerDob => 'Date of Birth';
 
   @override
@@ -72,7 +81,34 @@ class AppLocalizationsEn extends AppLocalizations {
   String get genderFemale => 'Female';
 
   @override
-  String get playerSchool => 'School Name (optional)';
+  String get playerSchool => 'School (optional)';
+
+  @override
+  String get playerClub => 'Club (optional)';
+
+  @override
+  String get playerAgeLabel => 'Age';
+
+  @override
+  String get yearsUnit => 'years';
+
+  @override
+  String get fatherPhone => 'Father\'s Mobile';
+
+  @override
+  String get motherPhone => 'Mother\'s Mobile';
+
+  @override
+  String get emergencyPhone => 'Emergency Number';
+
+  @override
+  String get fatherOccupation => 'Father\'s Occupation (optional)';
+
+  @override
+  String get motherOccupation => 'Mother\'s Occupation (optional)';
+
+  @override
+  String get guardianEmail => 'Email (optional)';
 
   @override
   String get trainingScheduleLabel => 'Training Schedule';
@@ -107,6 +143,59 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get emergencyContactPhone => 'Emergency Contact Phone';
+
+  @override
+  String get consentSection => 'Policies & Consent';
+
+  @override
+  String get consentPaymentTitle => 'Payment Policy';
+
+  @override
+  String get consentPaymentText =>
+      'Monthly subscription fees are paid on the first exercise session each month.';
+
+  @override
+  String get consentRefundTitle => 'Refund Policy';
+
+  @override
+  String get consentRefundText =>
+      'There are no refunds. Class transfers or credit towards another aquatic program may be requested and must be authorized by the pool supervisor. A full refund will be granted only if the class is cancelled by our team.';
+
+  @override
+  String get consentMedicalTitle => 'Emergency Medical Treatment Consent';
+
+  @override
+  String get consentMedicalText =>
+      'In a medical emergency, the parent/guardian grants authorization to our team to perform any primary emergency treatment. The academy bears no responsibility for any medical or health conditions experienced during academy activities. Academy staff and management shall not be held legally liable in this regard.';
+
+  @override
+  String get consentPhotosTitle => 'Photos & Media';
+
+  @override
+  String get consentPhotosText =>
+      'Photos are occasionally taken by our swimming team and may be used for publicity purposes. By signing, you consent to the use of your child\'s image for academy promotion.';
+
+  @override
+  String get consentAgree =>
+      'I have read, understood, and agree to the above policies and informed consent';
+
+  @override
+  String get referralSection => 'How did you hear about us?';
+
+  @override
+  String get referralFriends => 'Friends';
+
+  @override
+  String get referralFacebook => 'Facebook';
+
+  @override
+  String get referralInstagram => 'Instagram';
+
+  @override
+  String get referralBrochures => 'Brochures';
+
+  @override
+  String get referralOther => 'Other';
 
   @override
   String get nextButton => 'Next';
@@ -189,7 +278,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get validationMobileFormat =>
-      'Enter a valid mobile number (e.g. 01012345678)';
+      'Enter a valid Egyptian mobile (e.g. 01012345678)';
 
   @override
   String get validationEmailFormat => 'Enter a valid email address';
@@ -202,7 +291,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get validationEmergencyPhoneSameAsParent =>
-      'Must differ from parent mobile number';
+      'Must differ from parent phone numbers';
 
   @override
   String get validationMedicalDetailsRequired =>
@@ -210,6 +299,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get validationScheduleRequired => 'Please select a training schedule';
+
+  @override
+  String get validationConsentRequired =>
+      'You must agree to the terms to proceed';
 
   @override
   String get childName => 'Child Name';
